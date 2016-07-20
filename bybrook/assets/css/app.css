@@ -1,0 +1,149 @@
+/* Fonts  */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+	
+body {
+	background-image: url("../img/background-drop.jpg") !important;
+	background-position: center top;
+	min-height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+
+.header-image {
+	padding-top: 15px;
+}
+
+.nav-bar > li {
+	line-height: initial !important;
+	/*font-family: Nunito;*/
+	font-family: 'Open Sans';
+	color: white;
+	font-size: 13px;
+}
+
+.header_nav {
+	padding-top:10px;
+}
+
+
+.page-title {
+	font-size: 40px;
+	font-weight: 200;
+	color: #00589e;
+	margin-top:65px;
+	margin-bottom:10px;
+}
+
+.page-text {
+	font-size: 12px;
+	font-family: Nunito;
+	color: #000000;
+}
+/* Footer */
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+}
+
+.footer {
+	background-color: #000000;
+	color: #ffffff;
+	height: 45px;
+	opacity: 0.86;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.footer-envelope {
+	float:left;
+	font-size: 17px;
+	padding-top: 5px;
+}
+
+
+
+.footer-text-left {
+	float:left;
+	padding-left:10px;
+	margin-top: 5px;
+}
+
+.footer-text-email {
+	font-size: 14px;
+	float: left;
+}
+
+.footer-text-email a:hover {
+	text-decoration: underline !important;
+}
+
+.footer-text-email a {
+	color: #ffffff;
+}
+
+.footer-text-contact {
+	font-size: 11px;
+	float: left;
+	padding-left: 10px;
+	margin-top: 3px;
+}
+
+.footer-text-right {
+	float:right;
+	font-size: 11px;
+	margin-top: 8px;
+	
+}
+
+
+/* Responsive for less than 767px */
+@media only screen and (max-width: 940px) {
+
+	#supersized { 
+		display:none !important; 
+		left:-999999px !important; 
+	}
+	
+	.footer {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 20px;
+	}
+	
+	.footer-text-right {
+		float: left;
+		padding-left: 10px;
+	}
+	.page-title {
+		font-size: 40px;
+		padding-bottom: 20px;
+	}
+	.page-text {
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-left: 45px;
+		padding-right: 45px;
+		background-color: #2c2d2d;
+		opacity: 0.86;
+		margin-bottom: 100px;
+	}
+	.footer {
+		height: 125px !important;
+		width: 105%;
+	}
+	
+	.footer-text-contact {
+		padding-top: 10px;
+		padding-left: 0px;
+		
+	}
+}
